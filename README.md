@@ -20,6 +20,7 @@ The Active Directory Infrastructure Home Lab was created to build hands-on exper
 ### Tools Used
 
 - Windows Server 2022
+- Windows 10
 - Active Directory Domain Services
 - Active Directory Users and Computers
 - PowerShell
@@ -27,7 +28,7 @@ The Active Directory Infrastructure Home Lab was created to build hands-on exper
 - DNS
 - RRAS
 - NAT
-- Windows 10
+
 - VirtualBox
 
 ## Lab Implementation
