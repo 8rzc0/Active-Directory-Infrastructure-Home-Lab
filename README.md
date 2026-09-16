@@ -6,14 +6,14 @@ The Active Directory Infrastructure Home Lab was created to build hands-on exper
 
 ### Skills Learned
 
-- Configured Active Directory Domain Services on Windows Server 2022
-- Configured internal DNS for domain resolution
-- Configured RRAS/NAT to provide internet connectivity to an internal virtual network
-- Created and configured a separate domain administrator account
-- Used PowerShell to automate creation of approximately 1,000 Active Directory users
-- Joined a client to the Active Directory domain and verified domain authentication
-- Configured and authorized DHCP with scope, lease, and gateway settings
-- Troubleshot a missing default gateway and renewed the client DHCP configuration
+- Configured Active Directory Domain Services on Windows Server 2022.
+- Configured internal DNS for domain resolution.
+- Configured RRAS/NAT to provide internet connectivity to an internal virtual network.
+- Created and configured a separate domain administrator account.
+- Used PowerShell to automate creation of approximately 1,000 Active Directory users.
+- Joined a client to the Active Directory domain and verified domain authentication.
+- Configured and authorized DHCP with scope, lease, and gateway settings.
+- Troubleshot a missing default gateway and renewed the client DHCP configuration.
 
 ### Tools Used
 
