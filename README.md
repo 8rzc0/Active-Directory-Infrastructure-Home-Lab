@@ -215,11 +215,11 @@ Used a PowerShell script to create an OU and automate the creation of approximat
 
 ### Windows Client & Connectivity Verification
 
-Configured a Windows 10 Pro client on the internal network, verified it received network settings through DHCP, corrected a missing default gateway, and confirmed DNS and internet connectivity through RRAS/NAT.
+Configured a client on the internal network, verified it received network settings through DHCP, corrected a missing default gateway, and confirmed DNS and internet connectivity through RRAS/NAT.
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_01_09" src="https://github.com/user-attachments/assets/0c7c7352-d5c2-4a0b-bee2-296cd5aa981e" />
 
-*Ref 40: Installing the Windows 10 client on the internal network*
+*Ref 40: Installing the client on the internal network*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_13_40" src="https://github.com/user-attachments/assets/e6e88f7a-67db-4a03-8410-5adf2a4dae8d" />
 
@@ -231,27 +231,27 @@ Configured a Windows 10 Pro client on the internal network, verified it received
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_26_59" src="https://github.com/user-attachments/assets/de6718c6-f9ee-43cd-8c10-a63e3c7a242d" />
 
-*Ref 43: Renewing the IP and verifying connectivity*
+*Ref 43: Renewing the IP address and verifying connectivity*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_15_35_39" src="https://github.com/user-attachments/assets/74bab3bb-db2c-4839-aba3-c5070bfb651b" />
 
-*Ref 44: Verifying the Windows 10 client*
+*Ref 44: Verifying the client*
 
 ### Domain Join & Authentication
 
-Joined the Windows 10 Pro client to the Active Directory domain and authenticated using a domain user account.
+Joined the client to the Active Directory and authenticated using a domain user account.
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_17_33_05" src="https://github.com/user-attachments/assets/e7a4a636-b85d-4ae8-901f-ec529849cd99" />
 
-*Ref 45: Opening the Windows 10 client domain settings*
+*Ref 45: Opening the client domain settings*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_31_37" src="https://github.com/user-attachments/assets/65241d6f-95c9-4496-9a1a-9fec07abb7d5" />
 
-*Ref 46: Joining the Windows 10 client to the domain*
+*Ref 46: Joining the client to the domain*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_34_14" src="https://github.com/user-attachments/assets/5a097367-7635-44b2-8c26-c9c6ca220f19" />
 
-*Ref 47: Confirming the Windows 10 client successfully joined the domain*
+*Ref 47: Confirming the client successfully joined the domain*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_42_54" src="https://github.com/user-attachments/assets/09ffe4de-b531-4abc-b40c-19f9206f27b3" />
 
