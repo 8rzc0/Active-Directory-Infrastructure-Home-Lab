@@ -25,8 +25,8 @@ The Active Directory Infrastructure Home Lab was created to build hands-on exper
 - PowerShell
 - DHCP
 - DNS
-- Routing and Remote Access Service (RRAS)
-- Network Address Translation (NAT)
+- RRAS
+- NAT
 - Windows 10
 - VirtualBox
 
