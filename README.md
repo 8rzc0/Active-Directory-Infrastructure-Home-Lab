@@ -194,27 +194,23 @@ Used a PowerShell script to create an OU and automate the creation of approximat
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_42_22" src="https://github.com/user-attachments/assets/821f4996-961d-498c-a50e-30db1175eb0d" />
 
-*Ref 35: Opening Windows PowerShell ISE from the Start menu*
-
-<img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_43_42" src="https://github.com/user-attachments/assets/0bb4d420-dce6-4a9a-919b-9c6bbb3f91c9" />
-
-*Ref 36: Running Windows PowerShell ISE as administrator*
+*Ref 35: Running Windows PowerShell ISE as administrator*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_44_01" src="https://github.com/user-attachments/assets/c5713fb7-d8c5-4ec4-b899-629eca638baf" />
 
-ref
+*Ref 36: Opening the PowerShell script in Windows PowerShell ISE*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_45_09" src="https://github.com/user-attachments/assets/dc50963d-3e75-4ab2-b36b-eac3f9f067b0" />
 
-ref
+*Ref 37: Configuring the PowerShell execution policy*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_53_45" src="https://github.com/user-attachments/assets/ff25cd3e-606c-4139-93f4-0e75a361c02c" />
 
-ref
+*Ref 38: Running the PowerShell script to create Active Directory users*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_54_14" src="https://github.com/user-attachments/assets/f8de5fed-8b8d-4f07-a847-ac40b43ab723" />
 
-ref
+*Ref 39: Verifying the bulk-created Active Directory user accounts*
 
 ### Windows Client & Connectivity Verification
 
@@ -222,27 +218,23 @@ Configured a Windows 10 Pro client on the internal network, verified it received
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_01_09" src="https://github.com/user-attachments/assets/0c7c7352-d5c2-4a0b-bee2-296cd5aa981e" />
 
-ref
-
-<img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_10_08" src="https://github.com/user-attachments/assets/48165503-bbd0-4f0f-99e8-3fde9ab19a22" />
-
-ref
+*Ref 40: Installing the Windows 10 client on the internal network*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_13_40" src="https://github.com/user-attachments/assets/e6e88f7a-67db-4a03-8410-5adf2a4dae8d" />
 
-ref
+*Ref 41: Identifying the missing default gateway*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_15_25_18" src="https://github.com/user-attachments/assets/273f2597-51a3-4903-8997-7c8e683b38d1" />
 
-ref
+*Ref 42: Correcting the DHCP default gateway configuration*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_26_59" src="https://github.com/user-attachments/assets/de6718c6-f9ee-43cd-8c10-a63e3c7a242d" />
 
-ref
+*Ref 43: Renewing the IP and verifying connectivity*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_15_35_39" src="https://github.com/user-attachments/assets/74bab3bb-db2c-4839-aba3-c5070bfb651b" />
 
-ref
+*Ref 44: Verifying the Windows 10 client*
 
 ### Domain Join & Authentication
 
@@ -250,24 +242,24 @@ Joined the Windows 10 Pro client to the Active Directory domain and authenticate
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_17_33_05" src="https://github.com/user-attachments/assets/e7a4a636-b85d-4ae8-901f-ec529849cd99" />
 
-ref
+*Ref 45: Opening the Windows 10 client domain settings*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_31_37" src="https://github.com/user-attachments/assets/65241d6f-95c9-4496-9a1a-9fec07abb7d5" />
 
-ref
+*Ref 46: Joining the Windows 10 client to the domain*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_34_14" src="https://github.com/user-attachments/assets/5a097367-7635-44b2-8c26-c9c6ca220f19" />
 
-ref
+*Ref 47: Confirming the Windows 10 client successfully joined the domain*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_42_54" src="https://github.com/user-attachments/assets/09ffe4de-b531-4abc-b40c-19f9206f27b3" />
 
-ref
+*Ref 48: Signing in with a domain user account*
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_15_43_26" src="https://github.com/user-attachments/assets/d640ed2d-6bbc-4039-9851-95caa9e9384b" />
 
-ref
+*Ref 49: Verifying the domain user session*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_17_43_31" src="https://github.com/user-attachments/assets/95406c90-b9d5-4823-a2d0-02f9e4e685b9" />
 
-ref
+*Ref 50: Verifying the domain user account in Active Directory Users and Computers*
