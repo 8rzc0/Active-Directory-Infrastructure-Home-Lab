@@ -2,19 +2,17 @@
 
 ## Objective
 
-The Active Directory Infrastructure Home Lab was created to build hands-on experience with Windows Server administration, Active Directory, PowerShell, and core network services. The lab focused on deploying a Windows domain environment, configuring DHCP, DNS, and RRAS/NAT, automating bulk user creation with PowerShell, and connecting a Windows client to the domain.
+The Active Directory Infrastructure Home Lab was created to build hands-on experience with Windows Server, PowerShell, and core network services. The lab focused on deploying an Active Directory domain, configuring DHCP, DNS, and RRAS/NAT, automating bulk user creation with PowerShell, and connecting a client to the domain.
 
 ### Skills Learned
 
 - Configured Active Directory Domain Services on Windows Server 2022
-- Configured internal DNS for domain and client name resolution
-- Configured DHCP to automatically assign IP addresses and network settings to clients
+- Configured internal DNS for domain resolution
 - Configured RRAS/NAT to provide internet connectivity to an internal virtual network
 - Created and configured a separate domain administrator account
 - Used PowerShell to automate creation of approximately 1,000 Active Directory users
-- Configured a Windows client to receive network settings through DHCP
-- Joined a Windows client to the Active Directory domain
-- Verified DHCP leases, DNS resolution, internet connectivity, and domain authentication
+- Joined a client to the Active Directory domain and verified domain authentication
+- Configured and authorized DHCP with scope, lease, and gateway settings
 - Troubleshot a missing default gateway and renewed the client DHCP configuration
 
 ### Tools Used
@@ -28,7 +26,6 @@ The Active Directory Infrastructure Home Lab was created to build hands-on exper
 - DNS
 - RRAS
 - NAT
-
 - VirtualBox
 
 ## Lab Implementation
@@ -55,19 +52,19 @@ Installed Active Directory Domain Services on Windows Server 2022, promoted the 
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_47_53" src="https://github.com/user-attachments/assets/c13b343b-e14d-40b9-a97b-4d8f94bc50b5" />
 
-*Ref 5: Selecting the Active Directory Domain Services server role*
+*Ref 4: Selecting the Active Directory Domain Services server role*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_49_32" src="https://github.com/user-attachments/assets/8e54d934-b326-491f-a752-2bcac61f3f31" />
 
-*Ref 6: Installing Active Directory Domain Services*
+*Ref 5: Installing Active Directory Domain Services*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_49_47" src="https://github.com/user-attachments/assets/1f913183-f8c5-4182-90b3-9fc993100160" />
 
-*Ref 7: Starting the domain controller promotion process*
+*Ref 6: Starting the domain controller promotion process*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_50_47" src="https://github.com/user-attachments/assets/f961160b-6941-411b-90ca-f41166cff4eb" />
 
-*Ref 8: Creating a new Active Directory forest and domain*
+*Ref 7: Creating a new Active Directory forest and domain*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_52_57" src="https://github.com/user-attachments/assets/1e68d7b4-2ee1-47b5-be7a-93bca7f264a6" />
 
@@ -151,7 +148,7 @@ Configured RRAS and NAT to allow Windows clients on the internal virtual network
 
 ### DHCP & DNS
 
-Installed the DHCP Server role, configured and authorized a DHCP scope to assign IP addresses to clients, and set the domain controller as the default gateway and DNS server for the internal network.
+Installed the DHCP Server role, authorized the DHCP server, configured and activated a DHCP scope to assign IP addresses to clients, and set the domain controller as the default gateway and DNS server for the internal network.
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_26_56" src="https://github.com/user-attachments/assets/2d17cbe9-e7ec-4736-9120-6616e8835b2b" />
 
@@ -195,7 +192,7 @@ Used a PowerShell script to create an OU and automate the creation of approximat
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_42_22" src="https://github.com/user-attachments/assets/821f4996-961d-498c-a50e-30db1175eb0d" />
 
-*Ref 35: Running Windows PowerShell ISE as administrator*
+*Ref 35: Opening Windows PowerShell ISE as an administrator*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_44_01" src="https://github.com/user-attachments/assets/c5713fb7-d8c5-4ec4-b899-629eca638baf" />
 
@@ -235,11 +232,11 @@ Configured a client on the internal network, verified it received network settin
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_15_35_39" src="https://github.com/user-attachments/assets/74bab3bb-db2c-4839-aba3-c5070bfb651b" />
 
-*Ref 44: Verifying the client*
+*Ref 44: Verifying the client received a DHCP lease*
 
 ### Domain Join & Authentication
 
-Joined the client to the Active Directory and authenticated using a domain user account.
+Joined the client to the Active Directory domain and authenticated using a domain user account.
 
 <img width="795" height="600" alt="VirtualBox_Client_15_09_2026_17_33_05" src="https://github.com/user-attachments/assets/e7a4a636-b85d-4ae8-901f-ec529849cd99" />
 
