@@ -38,11 +38,11 @@ Configured Windows Server 2022 as the domain controller with separate external a
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_43_22" src="https://github.com/user-attachments/assets/54847e45-b97a-432b-a3e8-1b0fffbef7fc" />
 
-*Ref 1*
+*Ref 1: Configuring separate external and internal network adapters on the domain controller*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_44_51" src="https://github.com/user-attachments/assets/9b7df3db-983d-4866-9a42-167a0372f835" />
 
-*Ref 2*
+*Ref 2: Assigning static IPv4 addressing to the internal network adapter*
 
 ### Active Directory Domain Services & Domain Configuration
 
@@ -50,27 +50,27 @@ Installed Active Directory Domain Services on Windows Server 2022, promoted the 
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_46_29" src="https://github.com/user-attachments/assets/b748439c-1da6-4ad8-b819-240dab5427ab" />
 
-Ref 3
+*Ref 3: Opening the Add Roles and Features in Server Manager*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_47_53" src="https://github.com/user-attachments/assets/c13b343b-e14d-40b9-a97b-4d8f94bc50b5" />
 
-ref 4
+*Ref 5: Selecting the Active Directory Domain Services server role*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_49_32" src="https://github.com/user-attachments/assets/8e54d934-b326-491f-a752-2bcac61f3f31" />
 
-ref 5
+*Ref 6: Installing Active Directory Domain Services*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_49_47" src="https://github.com/user-attachments/assets/1f913183-f8c5-4182-90b3-9fc993100160" />
 
-ref 6
+*Ref 7: Starting the domain controller promotion process*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_50_47" src="https://github.com/user-attachments/assets/f961160b-6941-411b-90ca-f41166cff4eb" />
 
-ref 7
+*Ref 8: Creating a new Active Directory forest and domain*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_52_57" src="https://github.com/user-attachments/assets/1e68d7b4-2ee1-47b5-be7a-93bca7f264a6" />
 
-ref 8 
+*Ref 8: Completing the domain controller promotion and domain configuration*
 
 ### Domain Administrator Account
 
@@ -78,22 +78,23 @@ Created a dedicated admin OU, created a separate user account, and added the acc
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_13_59_20" src="https://github.com/user-attachments/assets/8da6379c-7e69-43b6-a306-64c7bd00af28" />
 
-ref
+*Ref 9: Opening Active Directory Users and Computers*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_00_15" src="https://github.com/user-attachments/assets/c2d515f9-49c7-4fb3-9498-7d121cae4bf4" />
 
-ref 
+*Ref 10: Starting the creation of a new user account* 
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_01_48" src="https://github.com/user-attachments/assets/c6df355a-0829-4ea0-8d88-cb3a9f36f7b4" />
 
-ref
+*Ref 11: Reviewing the new administrative user account before creation*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_03_54" src="https://github.com/user-attachments/assets/94064d83-1204-4e48-97d9-24db0e9d2ba0" />
 
-ref
+*Ref 12: Starting the creation of a new OU*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_04_26" src="https://github.com/user-attachments/assets/07506be1-6e1d-4f12-b9f8-14b3e220d7d8" />
 
+*Ref 13: Creating the `_ADMINS` organizational unit*
 
 <img width="795" height="600" alt="VirtualBox_DC_15_09_2026_14_05_47" src="https://github.com/user-attachments/assets/c550dc33-8d62-497c-b6d6-b58389400f10" />
 
